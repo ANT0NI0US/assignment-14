@@ -1,0 +1,20 @@
+{
+  "name": "assignment-14-code",
+  "version": "1.0.0",
+  "description": "typescript assignment",
+  "main": "dist/main.js",
+  "scripts": {
+    "start:dev": "concurrently -k \"tsc --watch\" \"node --watch dist/main.js\""
+  },
+  "keywords": [
+    "typescript",
+    "concurrently",
+    "OOP"
+  ],
+  "author": "antonious nasr",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
